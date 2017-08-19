@@ -12,7 +12,6 @@ var dinosaurUpperCased = dinosaur.toUpperCase();
 var partOftextCharsAfter = partOftext.replace('Velociraptor', dinosaurUpperCased );
 console.log(partOftextCharsAfter);
 
-// scripts.js
 //cut
 var effect = text.replace('Velociraptor', dinosaurUpperCased).slice(0, text.length/2);
 console.log(effect);
